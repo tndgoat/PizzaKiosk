@@ -39,7 +39,7 @@ const Search: React.FC = () => {
         value={value}
         onChange={onChangeInput}
         className={styles.input}
-        placeholder="Pizza search ..."
+        placeholder="Find ur favorite pizza"
       />
       {value && (
         <img
